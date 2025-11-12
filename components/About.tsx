@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 
 const About = () => {
@@ -69,5 +68,6 @@ const About = () => {
     </section>
   );
 };
+
 
 export default About;
