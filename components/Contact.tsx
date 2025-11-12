@@ -87,11 +87,11 @@ const Contact = () => {
                     </div>
                   </a>
                   
-                  <a href="mailto:syedali102005@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 flex items-center glass p-4 rounded-xl">
+                  <a href="mailto:new2200527@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 flex items-center glass p-4 rounded-xl">
                     <i className="fas fa-envelope text-2xl mr-4"></i>
                     <div>
                       <p className="font-semibold">Email Us</p>
-                      <p className="opacity-90">team@thecoders.com</p>
+                      <p className="opacity-90">team@thecoders</p>
                     </div>
                   </a>
                 </div>
@@ -163,5 +163,6 @@ const Contact = () => {
     </section>
   );
 };
+
 
 export default Contact;
