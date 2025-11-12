@@ -57,7 +57,7 @@ const Contact = () => {
         <div className="text-center mb-16 reveal">
           <span className="text-purple-600 font-semibold text-sm uppercase tracking-wider">Get In Touch</span>
           <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4 font-display">
-            Let's Create <span className="text-gradient-2">Something Amazing</span>
+            Lets Create <span className="text-gradient-2">Something Amazing</span>
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-pink-600 to-purple-600 mx-auto rounded-full"></div>
         </div>
@@ -87,11 +87,11 @@ const Contact = () => {
                     </div>
                   </a>
                   
-                  <a href="mailto:new2200527@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 flex items-center glass p-4 rounded-xl">
+                  <a href="mailto:syedali102005@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 flex items-center glass p-4 rounded-xl">
                     <i className="fas fa-envelope text-2xl mr-4"></i>
                     <div>
                       <p className="font-semibold">Email Us</p>
-                      <p className="opacity-90">team@thecoders</p>
+                      <p className="opacity-90">team@thecoders.com</p>
                     </div>
                   </a>
                 </div>
@@ -152,7 +152,7 @@ const Contact = () => {
                 
                 {formSubmitted && (
                   <div className="mt-6 p-4 bg-green-100 text-green-700 border border-green-300 rounded-lg">
-                    <i className="fas fa-check-circle mr-2"></i> Thank you for your message! We'll get back to you within 24 hours.
+                    <i className="fas fa-check-circle mr-2"></i> Thank you for your message! We will get back to you within 24 hours.
                   </div>
                 )}
               </div>
@@ -163,6 +163,5 @@ const Contact = () => {
     </section>
   );
 };
-
 
 export default Contact;
