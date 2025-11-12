@@ -46,9 +46,9 @@ const Footer = () => {
              
              
              
-              <a href="mailto:syedali102005@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors duration-300">
+              <a href="mailto:new2200527@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors duration-300">
               
-              <li><i className="fas fa-envelope mr-2"></i>team@thecoders.com</li>
+              <li><i className="fas fa-envelope mr-2"></i>team@thecoders</li>
               </a>
             </ul>
           </div>
@@ -61,5 +61,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;
