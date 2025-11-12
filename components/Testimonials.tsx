@@ -29,21 +29,21 @@ const Testimonials = () => {
       name: 'Sarah Johnson',
       position: 'CEO, TechStart',
       image: 'https://picsum.photos/seed/person1/50/50.jpg',
-      text: 'The Coders transformed our online presence completely. Their attention to detail and creativity exceeded our expectations.'
+      text: '"The Coders transformed our online presence completely. Their attention to detail and creativity exceeded our expectations."'
     },
     {
       id: 2,
       name: 'Mike Chen',
       position: 'Founder, InnovateCo',
       image: 'https://picsum.photos/seed/person2/50/50.jpg',
-      text: 'Professional, creative, and reliable. They delivered our project on time and the results were outstanding!'
+      text: '"Professional, creative, and reliable. They delivered our project on time and the results were outstanding!"'
     },
     {
       id: 3,
       name: 'Emily Davis',
       position: 'Marketing Director, GrowthHub',
       image: 'https://picsum.photos/seed/person3/50/50.jpg',
-      text: 'The best decision we made was choosing The Coders. Our conversion rates have doubled since the redesign!'
+      text: '""The best decision we made was choosing The Coders. Our conversion rates have doubled since the redesign!'
     }
   ];
 
@@ -71,7 +71,7 @@ const Testimonials = () => {
                 <i className="fas fa-star text-yellow-300"></i>
                 <i className="fas fa-star text-yellow-300"></i>
               </div>
-              <p className="text-white mb-6 italic">"{testimonial.text}"</p>
+              <p className="text-white mb-6  ">{testimonial.text} </p>
               <div className="flex items-center">
                 <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full mr-4" />
                 <div>
